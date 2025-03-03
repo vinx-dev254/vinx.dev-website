@@ -1,148 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="description" content="Nelvin is a web developer and mixologist in Kenya, specializing in creating websites and cocktail catering. Explore his portfolio.">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nelvin|Front-End Developer</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Personal Portfolio
+    </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css"> 
+     <!-- Bootstrap 5 CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   
+</head>
+<body>
+                <!--navbar-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+            <div class="container">
+                <a href="#" class="navbar-brand ">Nelvin Omondi</a>
+                <button 
+                 class="navbar-toggler"
+                 type="button" 
+                 data-bs-toggle="collapse" 
+                 data-bs-target="#navmenu">
+                 <span class="navbar-toggler-icon"></span>
+                 
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu" >
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+            
         </nav>
-      </ul>
-    </header>
+            
+       <!--showcase-->
+       <section id="home" class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <diV class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h2>Hi, I am Nelvin</h2>
+                    <h1 class="my-4"><span class="text-warning"> Web Developer</h1>
+                       
+                    </p>
+                    
+                    <p class="lead m-4 ">
+                        Helping brands,individuals and businesses establish their online presence.
+                    </p>
+                    <a href="https://wa.me/254113868864?text=Hello%20Nelvin,%20I'm%20interested%20in%20your%20web%20development%20services." target="_blank" class="btn btn-primary btn-lg">
+                        Hire Me
+                    </a>
+                    
+                </div>
+                <img class="img-fluid w-50 d-sm-block d-none rounded-circle" src="images/IMG_20250209_102355_054.webp" alt="">
+            </diV>
+
+        </div>
+       </section>
+
+       <!--portfolio-->
+       <section id="portfolio" class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="row  ">
+                
+             <h2 class="mb-3 text-center ">
+                 My Portfolio
+             </h2>
+                <div class="row g-4">
+                    <div class="col-md">
+                        <div class="card mb-5 ">
+                            <img class="img-fluid w-70 " src="images/Screenshot (6).png" class="card-img-center" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">VinX Cocktails-Premium Mixology Website</h5>
+                                <p class="card-text">
+                                      A premium mixology website that provides users with a wide range of cocktail recipes, easy-to-follow instructions, and exclusive discounts.
+   
+                                </p>
+                                <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>  
+                        
+                        <div class="card mb-5">
+                            <img class="img-fluid w-70 " src="images/Screenshot (22).png" class="card-img-center" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"> Fitness Website</h5>
+                                <p class="card-text">
+                                     
+                                      A website designed to help users achieve their fitness goals by providing a variety of workout routines, nutrition information, and personalized progress tracking.
+   
+                                </p>
+                                <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>    
+
+
+
+                        <div class="card mb-5">
+                            <img class="img-fluid w-70 " src="images/Screenshot (27).png" class="card-img-center" alt="...">
+                            <img class="img-fluid w-70 " src="images/Screenshot (28).png" class="card-img-center" alt="...">
+                            <div class="card-body">
+                            
+                                <h5 class="card-title">Webinar Landing Page</h5>
+                                <p class="card-text">
+                                     A webinar landing page designed to attract attendees and create a memorable experience.
+                                </p>
+                                <a href="#" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>    
+
+                    </div>
+                </div>
+            </div>  
+        </div>
+       </section>
+       <!--about section-->
+       <section id="about" class="bg-white text-dark pt-5">
+        <div class="container">
+            <div class="row p-5">
+                <h2 class="text-center p-3" >
+                 About Me
+                </h2>
+                <div class="pt-">
+                    With a strong foundation in HTML, CSS, Bootstrap, and JavaScript, I specialize in building user-friendly digital experiences.
+                </p>
+                <p>
+                    I am a creative and detail-oriented individual who loves to experiment with new technologies and designs. I am always eager to learn and excited to collaborate with others on projects.
+                </p>
+                </div>              
+
+                
+            </div>
+        </div>
+       </section>
+
+
+      <!--skills and strengths-->
+      <section  class=" bg-success text-white ">
+        <div class="container">
+            <div class="row p-5 ">
+                    <H2 class="p-5 text-center">
+                        My Skills and Strengths
+                    </H2>
+                    <p><strong><i class="bi bi-check"></i>Responsive Web-Design</strong> -Ensuring websites look great on all devices.</p>
+                    <p><strong> <i class="bi bi-check"></i>Performance Optimization</strong>-Writing clean and efficient code.</p>
+                    <p><strong><i class="bi bi-check"></i>UI/UX Focus</strong>- Crafting intuitive and visually appealing designs.</p>
+                    <p><strong><i class="bi bi-check"></i>Problem Solving </strong>-Debugging and improving website functionality. </p>
+            </div>
+                <h2 class="text-center p-5">
+                    Why Choose Me?
+                </h2>
+                <div class="text-start lead p-5">
+                    <p><i class="bi bi-check"></i>
+                        My experience with web development has been in the front-end field.
+                    </p>
+                    <p><i class="bi bi-check"></i>I have worked with various brands and individuals, helping them establish their online presence.</p>
+                    <p><i class="bi bi-check"></i> I am eager to assist you with your next project.</p>
+                    <p><i class="bi bi-check"></i>I am confident that you will find me a great fit for your project.</p>
+                    <p><i class="bi bi-check"></i>I am ready to help you build your dream website.</p>
+                    <p><i class="bi bi-check"></i>I believe in continuous learning and improving my skills to deliver high-quality projects.</p>
+                    <p><i class="bi bi-check"></i>
+                        I am detail-oriented and committed to building websites that not only look great but also perform well.
+                    </p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+        <!--contact-->
+        <section id="contact" class="p-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md">
+                        <h2 class="text-center mb-3">Contact Info</h2>
+                        <ul class="list-group list-group-flush lead">
+                            <li class="list-group-item">
+                                <span class="fw-bold">
+                                    Main Location:
+                                </span> Nyali Mombasa Kenya
+                            </li>
+
+                        </ul>
+
+
+                        <ul class="list-group list-group-flush lead">
+                            <li class="list-group-item">
+                                <span class="fw-bold">
+                                 Email:
+                                </span>vinx.dev254@gmail.com
+                            </li>
+
+                        </ul>
+
+                        
+                        <ul class="list-group list-group-flush lead">
+                            <li class="list-group-item">
+                                <span class="fw-bold">
+                                     Phone:
+                                </span> +254 113868864 / 0756334831
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+   <!--footer-->
+        <footer class="p-5 bg-dark text-white text-center position-relative">
+            <div class="container">
+                <p class="lead mb-0">Copyright &copy; 2025 Frontend Bootcamp. All rights reserved.</p>
+
+                <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                    <i class="bi bi-arrow-up-circle h1"></i>
+                </a>
+
+                <div class="d-flex align-items-center justify-content-center pt-5 mb-0">
+                    <a href="https://www.instagram.com/vinx_codes/?hl=en" target="_blank"><i class="bi bi-instagram mx-1 text-light"></i></a>
+                    <a href="https://www.linkedin.com/in/nelvin-vinx/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B8l2dhT%2ByTwWPuENIZuwClg%3D%3D" target="_blank"><i class="bi bi-linkedin mx-1 text-light"></i></a>
+                    <a href="https://www.facebook.com/me/" target="_blank" ><i class="bi bi-facebook mx-1 text-light"></i></a>
+                    <a href="https://x.com/vinx_codes" target="_blank"><i class="bi bi-twitter mx-1 text-light"></i></a>
+                </div>
     
-
-    <section id="home">
-      <div class="container-1">
-        <div style="margin-bottom: 40px;">
-          <h1>Welcome To My Portfolio !</h1> 
-        </div>
-        <div style="
-        height: 70px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 40PX;
-        ">
-          <h2>Nelvin| Front-End 
-            Developer
-          </h2>
-          <img class="profile-pic" src="images/profile-pic.webp">
-        </div>
-        <P>
-          Hi, I'm Nelvin, a Front-End Web Developer 
-          with a Passion 
-          for Clean & Responsive Design.
-        </P>
-      </div>
-    </section>
-
-
-    <section id="projects">
-      <div class="container-2">
-        <div>
-          <h1>My Projects</h1>
-        </div>
-        <div style="
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        ">
-          <h3 style="font-style: italic;">
-            Check out my latest work
-          </h3>
-          <p style="margin-bottom: 0;">
-            1.VinX Cocktails and Mixology website
-          </p>
-          <p style="color: black; margin-top: 0;">
-            <strong>HTML|CSS</strong>
-          </p>
-          <img class="project-images" src="images/Screenshot (1).png">
-          <img class="project-images" src="images/Screenshot (2).png">
-          <img class="project-images" src="images/Screenshot (3).png">
-          <img class="project-images"src="images/Screenshot (5).png">
-          
-        </div>
-      </div>
-      </div>
-    </section>
-
-    <section id="about">
-      <div class="container-3">
-        <h2>About Me</h2>
-        <div style="
-        display: flex;
-        text-align: left;
-        
-        ">
-          <p>
-            I'm Nelvin, a passionate Front-End Web Developer with
-             a keen eye for clean, modern, and responsive design. I 
-             specialize in HTML, CSS, and JavaScript,
-              crafting user-friendly websites that offer a 
-              seamless experience across all devices.
-               My goal is to turn ideas into visually appealing and 
-               functional web solutions.
-          </p>
-        </div>
-        <h2>Why Hire Me</h2>
-        <p style="
-        display: flex;
-        text-align: left;
-        ">
-          I focus on performance, aesthetics, and usability, ensuring every project is fast, accessible, and engaging. Whether you need a landing page, portfolio, or business website, I bring attention to detail, creativity, and problem-solving skills to deliver high-quality results. Let's build something amazing together!
-        </p>
-      </div>
-    </section>
+            </div>
+    
+        </footer>
 
 
 
-    <section id="contact">
-      <div class="container-4">
-        <a href="mailto:nelvinomondi254@gmail.com" target="_blank">
-          <button class="contact-button" >
-            Contact Me
-          </button>
-        </a>
 
+        <!-- Bootstrap 5 JS Bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-        <div class="icon-section">
-          <footer>
-            <ul>
-              <li><a href="https://www.instagram.com/vinx_codes_n_crafts/?hl=en" target="_blank">
-                <img class="icon" src="icons/instagram-icon.png">
-              </a></li>
-              <li> <a href="https://www.facebook.com/profile.php?id=61571622358669&rdid=mo9jjOwcbrwtq2PU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DqEdNYREv%2F#" target="_blank">
-                <img class="icon" src="icons/facebook-icon.png">
-              </a>  </li>
-              <li><a href="https://www.tiktok.com/@n_e_l_v_i_n254?lang=en" target="_blank">
-                <img class="icon" src="icons/tiktok-icon.png">
-              </a> </li>
-              <li><a href="https://x.com/Nelvin_ke" target="_blank">
-                <img class="icon" src="icons/x-icon.png">
-              </a> </li>
-            </ul>
-          </footer>
-        </div>
-        <p>© 2025 VinX. All rights reserved.</p>
-      </div>
-    </section>
-  </body>
+    </body>
 </html>
